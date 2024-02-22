@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-RUN apk add \
+RUN apk add --no-cache \
   curl \
   minio
 
